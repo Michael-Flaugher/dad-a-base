@@ -155,7 +155,7 @@
 			justify-content: center;
 			padding: 32px 24px;
 			position: relative;
-			overflow: hidden;
+			overflow: visible;
 		}
 		.screen::after {
 			content: '';
@@ -173,11 +173,11 @@
 			align-items: center;
 			justify-content: center;
 			scrollbar-width: thin;
-			scrollbar-color: #1a1a1a transparent;
+			scrollbar-color: #444 transparent;
 		}
 		.joke-reel::-webkit-scrollbar { width: 4px; }
 		.joke-reel::-webkit-scrollbar-track { background: transparent; }
-		.joke-reel::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }
+		.joke-reel::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
 		.joke-text {
 			font-family: 'VT323', monospace;
 			font-size: clamp(1.4rem, 3.1vw, 1.8rem);
